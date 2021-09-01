@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body{
+    background-color: black;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: blanchedalmond;
+}
+
+h2{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: blueviolet;
+}
+
+p{
+    text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: lightblue;
+}
