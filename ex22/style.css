@@ -8,38 +8,74 @@ body {
 
 }
 
+.cabeca {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
 header {
-    background-color: white;
+    /*background-color: white;*/
     margin: auto;
     padding: 0px;
 }
 
 nav {
     background-color: royalblue;
-    padding: 7px;
+    padding: 14px;
+}
+
+.home {
+    background-color: rgb(43, 68, 146);
+    padding: 14px;
+}
+
+.outros {
+    padding: 14px;
 }
 
 nav > a {
     text-decoration: none;
     color: white;
     font-weight: bold;
-    margin: 40px;
+    margin: 0px;
 }
 
 nav > a:hover {
-    text-decoration: underline;
+    background-color: rgb(27, 44, 94);
+    /*text-decoration: underline;*/
 }
 
 main {
     background-color: white;
     margin: 10px;
     padding: 10px;
+    border-radius: 20px;
+}
+
+#first {
+    text-align: center;
+}
+
+article {
+    background-color: thistle;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+article > aside {
+    background-color: gray;
+    color: white;
+    text-align: end;
 }
 
 footer {
     background-color: black;
     color: white;
     text-align: center;
-    padding: 1px;
+    padding: 5px;
+}
+
+footer > p {
     margin: 0px;
 }
